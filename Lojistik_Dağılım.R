@@ -9,7 +9,7 @@ f <- function(x) {
   (1 / sqrt(2 * pi)) * exp(-0.5 * x^2)
 }
 
-# Öneri Fonksiyonu (Lojistik Dağılım)
+# Aday Fonksiyonu (Lojistik Dağılım)
 g <- function(x) {
   exp(-x) / (1 + exp(-x))^2
 }
