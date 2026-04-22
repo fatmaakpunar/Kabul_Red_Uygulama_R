@@ -1,7 +1,7 @@
 #Algoritma:
 #i=0, k=0, i=n ise dur
 #1.	Adım=> y, g(y) den üret
-#2.	Adım =>uniformdan bağımsız üret
+#2.	Adım => U  bağımsız üret
 #3.	Eğer U<=f(y)/c*g(y) xi=y ise i=i+1, k=k+1 değilse k=k+1 ve 0. Adıma git
 
 # Hedef Fonksiyon (Normal Dağılım)
