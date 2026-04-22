@@ -30,7 +30,7 @@ while(i < n) { # i = n ise dur (n'e ulaşana kadar dön)
   k <- k + 1
   # Lojistik dağılımdan aday üretme (y)
   u_aday <- runif(1)
-  x_candidate <- log(u_aday / (1 - u_aday)) #y
+  x_candidate <- log(u_aday / (1 - u_aday)) #y ters dönüşüm yönteminden gelir
   
   # Kabul-Ret testi için ikinci uniform
   u_test <- runif(1) #U
