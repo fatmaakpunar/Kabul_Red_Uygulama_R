@@ -37,3 +37,9 @@ while(i < n) { #i=n ise dur
     samples[i] <- x_candidate #x_i=y kaydet
   }
 }
+
+# Sonuçları Görselleştirme
+hist(samples, breaks = 70, prob = TRUE, 
+     main = "Cauchy Önerili Kabul-Ret",
+     col = "thistle", border = "white", xlim = c(-4, 4))
+curve(f(x), add = TRUE, col = "darkblue", lwd = 2)
